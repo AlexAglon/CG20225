@@ -93,7 +93,8 @@ int main( )
     // Setup and compile our shaders
     Shader shader( "Shader/modelLoading.vs", "Shader/modelLoading.frag" );
     
-    // Load models
+    // Load models - Se agrega ruta del modelo
+    Model dog((char*)"Models/RedDog.obj");
     glm::mat4 projection = glm::perspective( camera.GetZoom( ), ( float )SCREEN_WIDTH/( float )SCREEN_HEIGHT, 0.1f, 100.0f );
     
   
@@ -123,7 +124,7 @@ int main( )
         // Draw the loaded model
         glm::mat4 model(1);
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-        
+        dog.Draw(shader);
 
         // Swap the buffers
         glfwSwapBuffers( window );
