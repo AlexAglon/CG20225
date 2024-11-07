@@ -95,9 +95,13 @@ int main( )
     
     // Load models - Se agrega ruta del modelo
     Model dog((char*)"Models/RedDog.obj");
+
+    //-------------------------CARAGA DE MODELOS----------------------//
+   // Load models - Se agrega ruta del modelo restaurante
+    Model rest((char*)"Models/pruebasres.obj");
+
     glm::mat4 projection = glm::perspective( camera.GetZoom( ), ( float )SCREEN_WIDTH/( float )SCREEN_HEIGHT, 0.1f, 100.0f );
-    
-  
+
 
     // Game loop
     while (!glfwWindowShouldClose(window))
@@ -125,6 +129,11 @@ int main( )
         glm::mat4 model(1);
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         dog.Draw(shader);
+
+        ////Dibujando modelo de restarurante
+        model = glm::translate(model, glm::vec3(3.0f,0.0f,0.0f));
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        rest.Draw(shader);
 
         // Swap the buffers
         glfwSwapBuffers( window );
