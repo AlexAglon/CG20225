@@ -1,0 +1,11 @@
+﻿  Carga de Modelos.cpp
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(207,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(168,17): warning C4101: 'VBO': variable local sin referencia
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(168,22): warning C4101: 'VAO': variable local sin referencia
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(316,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(317,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(321,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(322,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(324,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(325,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  ProyectoAbraham.vcxproj -> C:\Users\user\source\repos\ProyectoAbraham\Debug\ProyectoAbraham.exe
