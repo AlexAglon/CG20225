@@ -1,9 +1,0 @@
-﻿  Carga de Modelos.cpp
-C:\Users\PC\Documents\PruebasCG\config\config\Carga de Modelos.cpp(110,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\PruebasCG\config\config\Carga de Modelos.cpp(203,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\PruebasCG\config\config\Carga de Modelos.cpp(204,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\PruebasCG\config\config\Carga de Modelos.cpp(208,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\PruebasCG\config\config\Carga de Modelos.cpp(209,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\PruebasCG\config\config\Carga de Modelos.cpp(211,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\PruebasCG\config\config\Carga de Modelos.cpp(212,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-  config.vcxproj -> C:\Users\PC\Documents\PruebasCG\config\Debug\config.exe

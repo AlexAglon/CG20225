@@ -1,0 +1,11 @@
+﻿  Carga de Modelos.cpp
+C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(213,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(174,17): warning C4101: 'VBO': variable local sin referencia
+C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(174,22): warning C4101: 'VAO': variable local sin referencia
+C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(322,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(323,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(327,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(328,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(330,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(331,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+  ProyectoAbraham.vcxproj -> C:\Users\PC\Documents\cygnus\ProyectoAbraham\Debug\ProyectoAbraham.exe
