@@ -24,7 +24,7 @@
 #include "Texture.h" // para  skybox
 
 // Properties
-const GLuint WIDTH = 800, HEIGHT = 600;
+const GLuint WIDTH = 1200, HEIGHT = 800;
 int SCREEN_WIDTH, SCREEN_HEIGHT;
 
 // Function prototypes
@@ -107,7 +107,8 @@ int main( )
     //Model BalonBasket((char*)"resources/columpios/Columpios.obj"); // --- tarda mucho caragando y se rompe 
     //Model BalonBasket((char*)"resources/palmera/palmera.obj");
     //Model BalonBasket((char*)"resources/Juegos/Juegos.obj");
-    Model BalonBasket((char*)"resources/Alberca/alberca.obj");
+   /* Model BalonBasket((char*)"resources/Alberca/alberca.obj");*/
+    Model BalonBasket((char*)"resources/composicion/Composicion2.obj");
 
     // Posicion de los vertices del SkyBox
 
