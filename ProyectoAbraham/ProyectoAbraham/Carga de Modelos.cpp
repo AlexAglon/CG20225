@@ -101,14 +101,18 @@ int main( )
     glm::mat4 projection = glm::perspective( camera.GetZoom( ), ( float )SCREEN_WIDTH/( float )SCREEN_HEIGHT, 0.1f, 100.0f );
     
     // RUTA DE MODELOS
-    //Model BalonBasket((char*)"resources/BalonBasket/BalonBasket.obj");
+    //Model BalonBasket1((char*)"resources/BalonBasket/BalonBasket.obj");
     //Model BalonBasket((char*)"resources/restaurante/restaurante.obj");
     //Model BalonBasket((char*)"resources/SillaAlberca/silla_alberca.obj");
     //Model BalonBasket((char*)"resources/columpios/Columpios.obj"); // --- tarda mucho caragando y se rompe 
     //Model BalonBasket((char*)"resources/palmera/palmera.obj");
     //Model BalonBasket((char*)"resources/Juegos/Juegos.obj");
    /* Model BalonBasket((char*)"resources/Alberca/alberca.obj");*/
-    Model BalonBasket((char*)"resources/composicion/Composicion2.obj");
+    /*Model BalonBasket((char*)"resources/composicion/Zona1.obj");
+    Model zona2((char*)"resources/composicion/zona2.obj");*/
+    //Model BalonBasket((char*)"resources/Estacionamiento/Estacionamiento.obj");
+    Model BalonBasket((char*)"resources/EscenaCompleta/EscenaCompleta.obj");
+
 
     // Posicion de los vertices del SkyBox
 
@@ -233,6 +237,10 @@ int main( )
         glm::mat4 model(1);
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         BalonBasket.Draw(shader);
+
+        ////Ejemlo de carga de otro modelo - si se hace traslacion o escala se debe poner desde glm::mat4 model(1)
+        //glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        //zona2.Draw(shader);
 
         // Dibujo del skybox
         glDepthFunc(GL_LEQUAL);
