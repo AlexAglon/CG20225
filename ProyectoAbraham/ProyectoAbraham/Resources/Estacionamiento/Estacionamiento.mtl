@@ -1,120 +1,110 @@
 # 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
-# File Created: 05.11.2024 15:30:24
+# File Created: 15.11.2024 13:00:27
 
 newmtl lambert1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5500 0.5500 0.5500
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.9000 0.9000 0.9000
-	Tr 0.0000
-	d 1.0000
-	Tf 1.0000 1.0000 1.0000
-	Pr 0.9000
-	Pm 0.0000
-	Pc 0.0000
-	Pcr 0.0000
-	Ni 1.5000
 	Ke 0.0000 0.0000 0.0000
-	illum 2
+	map_Ka ParkingLot_Diffuse_(1).jpg
 	map_Kd ParkingLot_Diffuse_(1).jpg
 
 newmtl Pave2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5500 0.5500 0.5500
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.9000 0.9000 0.9000
-	Tr 0.0000
-	d 1.0000
-	Tf 1.0000 1.0000 1.0000
-	Pr 0.9000
-	Pm 0.0000
-	Pc 0.0000
-	Pcr 0.0000
-	Ni 1.5000
 	Ke 0.0000 0.0000 0.0000
-	illum 2
+	map_Ka Pave02.tga.png
 	map_Kd Pave02.tga.png
 
 newmtl long_grass_04
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5500 0.5500 0.5500
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.9000 0.9000 0.9000
-	Tr 0.0000
-	d 1.0000
-	Tf 1.0000 1.0000 1.0000
-	Pr 0.9000
-	Pm 0.0000
-	Pc 0.0000
-	Pcr 0.0000
-	Ni 1.5000
 	Ke 0.0000 0.0000 0.0000
-	illum 2
+	map_Ka long_grass03.png
 	map_Kd long_grass03.png
 
 newmtl Car_Jeep
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5500 0.5500 0.5500
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.9000 0.9000 0.9000
-	Tr 0.0000
-	d 1.0000
-	Tf 1.0000 1.0000 1.0000
-	Pr 0.9000
-	Pm 0.0000
-	Pc 0.0000
-	Pcr 0.0000
-	Ni 1.5000
 	Ke 0.0000 0.0000 0.0000
-	illum 2
+	map_Ka car_jeep.jpg
 	map_Kd car_jeep.jpg
 
 newmtl Default_Material
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5500 0.5500 0.5500
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.9000 0.9000 0.9000
-	Tr 0.0000
-	d 1.0000
-	Tf 1.0000 1.0000 1.0000
-	Pr 0.9000
-	Pm 0.0000
-	Pc 0.0000
-	Pcr 0.0000
-	Ni 1.5000
 	Ke 0.0000 0.0000 0.0000
-	illum 2
 
 newmtl Grey2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5500 0.5500 0.5500
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.9000 0.9000 0.9000
-	Tr 0.0000
-	d 1.0000
-	Tf 1.0000 1.0000 1.0000
-	Pr 0.9000
-	Pm 0.0000
-	Pc 0.0000
-	Pcr 0.0000
-	Ni 1.5000
 	Ke 0.0000 0.0000 0.0000
-	illum 2
 
 newmtl metal
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5500 0.5500 0.5500
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.9000 0.9000 0.9000
-	Tr 0.0000
-	d 1.0000
-	Tf 1.0000 1.0000 1.0000
-	Pr 0.9000
-	Pm 0.0000
-	Pc 0.0000
-	Pcr 0.0000
-	Ni 1.5000
 	Ke 0.0000 0.0000 0.0000
-	illum 2
-	map_Kd reserved_parking_texture.tga.png
+	map_Ka reserved_parking_texture.png
+	map_Kd reserved_parking_texture.png
 
 newmtl reserved_parking
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5500 0.5500 0.5500
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.9000 0.9000 0.9000
-	Tr 0.0000
-	d 1.0000
-	Tf 1.0000 1.0000 1.0000
-	Pr 0.9000
-	Pm 0.0000
-	Pc 0.0000
-	Pcr 0.0000
-	Ni 1.5000
 	Ke 0.0000 0.0000 0.0000
-	illum 2
+	map_Ka reserved_parking_texture.tga.png
 	map_Kd reserved_parking_texture.tga.png

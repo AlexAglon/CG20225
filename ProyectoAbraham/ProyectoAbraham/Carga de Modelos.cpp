@@ -111,8 +111,10 @@ int main( )
     /*Model BalonBasket((char*)"resources/composicion/Zona1.obj");
     Model zona2((char*)"resources/composicion/zona2.obj");*/
     //Model BalonBasket((char*)"resources/Estacionamiento/Estacionamiento.obj");
-    Model BalonBasket((char*)"resources/EscenaCompleta/EscenaCompleta.obj");
-
+    Model ZonaHotel((char*)"resources/zonaHoteles/ZonaHotel.obj");
+    Model ZonaAlberca((char*)"resources/ZonaAlberca/ZonaAlbercas.obj");
+    Model Estacionamiento((char*)"resources/Estacionamiento/Estacionamiento.obj");
+    Model ZonaRestaurante((char*)"resources/ZonaRestaurante/ZonaRestaurante.obj");
 
     // Posicion de los vertices del SkyBox
 
@@ -236,8 +238,20 @@ int main( )
         // Dibujar modelos 
         glm::mat4 model(1);
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
-        BalonBasket.Draw(shader);
+        ZonaHotel.Draw(shader);
 
+        //Zona Albercas 
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        ZonaAlberca.Draw(shader);
+
+        //Zona Albercas 
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        Estacionamiento.Draw(shader);
+
+        //Zona Restaurante 
+        glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        ZonaRestaurante.Draw(shader);
+        
         ////Ejemlo de carga de otro modelo - si se hace traslacion o escala se debe poner desde glm::mat4 model(1)
         //glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         //zona2.Draw(shader);
