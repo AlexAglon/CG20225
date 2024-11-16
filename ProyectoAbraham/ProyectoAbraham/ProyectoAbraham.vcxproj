@@ -151,7 +151,7 @@
     <None Include="Shader\SkyBox.vs" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Carga de Modelos.cpp" />
+    <ClCompile Include="Proyecto.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
