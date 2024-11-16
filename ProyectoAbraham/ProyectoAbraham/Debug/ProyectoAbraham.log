@@ -1,14 +1,25 @@
-﻿  Proyecto.cpp
-C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Proyecto.cpp(211,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Proyecto.cpp(172,17): warning C4101: 'VBO': variable local sin referencia
-C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Proyecto.cpp(172,22): warning C4101: 'VAO': variable local sin referencia
-C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Proyecto.cpp(340,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Proyecto.cpp(341,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Proyecto.cpp(345,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Proyecto.cpp(346,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Proyecto.cpp(348,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\PC\Documents\cygnus\ProyectoAbraham\ProyectoAbraham\Proyecto.cpp(349,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_DXT.obj)' o en 'C:\Users\PC\Documents\cygnus\ProyectoAbraham\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
-soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_helper.obj)' o en 'C:\Users\PC\Documents\cygnus\ProyectoAbraham\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
-soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(SOIL2.obj)' o en 'C:\Users\PC\Documents\cygnus\ProyectoAbraham\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
-  ProyectoAbraham.vcxproj -> C:\Users\PC\Documents\cygnus\ProyectoAbraham\Debug\ProyectoAbraham.exe
+﻿  Carga de Modelos.cpp
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(118,46): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(119,27): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(137,46): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(138,27): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(455,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(416,17): warning C4101: 'VBO': variable local sin referencia
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(416,22): warning C4101: 'VAO': variable local sin referencia
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(666,29): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(671,29): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(676,29): warning C4305: '-=': truncamiento de 'double' a 'float'
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(681,29): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(776,27): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(799,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(800,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(804,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(805,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(807,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\user\source\repos\ProyectoAbraham\ProyectoAbraham\Carga de Modelos.cpp(808,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+soil2-debug.lib(etc1_utils.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(etc1_utils.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(image_DXT.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(image_helper.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB '' con 'soil2-debug.lib(SOIL2.obj)' o en ''; se vinculará el objeto sin tener en cuenta información de depuración
+  ProyectoAbraham.vcxproj -> C:\Users\user\source\repos\ProyectoAbraham\Debug\ProyectoAbraham.exe
